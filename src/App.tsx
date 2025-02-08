@@ -78,7 +78,6 @@ export default function Page() {
       "Я принесу тебе луну с неба",
       "Все котята мира просят тебя согласиться",
       "Нет, это не вариант :)",
-      "Я буду делать с тобой подарки для твоих тк",
       "Судьба свела нас не просто так",
       "Я не смогу без тебя",
       "Ты моё счастье",
@@ -118,7 +117,7 @@ export default function Page() {
             className="h-[200px]"
             src={waitingGifs[currentGifIndex]}
           />
-          <h1 className="my-4 text-4xl">Солнышко, ты примешь мою валентинку?</h1>
+          <h1 className="my-4 text-4xl">Любимая, ты будешь со мной всегда?</h1>
           <div className="flex items-center">
             <button
               className={`mr-4 rounded bg-green-500 px-4 py-2 font-bold text-white hover:bg-green-700`}
