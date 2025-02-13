@@ -48,7 +48,7 @@ jobs:
           to: ${{ secrets.TELEGRAM_CHAT_ID }}
           token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           message: |
-            🚀 Деплой Valentine App
+            🚀 Деплой Valentin rashad App
             Статус: ${{ job.status != 'success' && '❌ Ошибка во время деплоя' || '✅ Деплой успешен!' }}
 
             Ветка: ${{ github.ref_name }} || https://github.com/${{ github.repository }}/tree/${{ github.ref_name }}
@@ -58,4 +58,4 @@ jobs:
             Автор коммита: ${{ github.actor }}
             Репозиторий: https://github.com/${{ github.repository }}
             
-            Посмотреть: https://vovmomyt.github.io/valentine
+            Посмотреть: https://vovmomyt.github.io/RASHAD
