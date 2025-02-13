@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/luyba",
+  base: "/RASHAD",
   plugins: [react()],
   build: {
     assetsDir: 'assets',
